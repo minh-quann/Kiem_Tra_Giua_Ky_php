@@ -35,7 +35,7 @@ if (!$sv) {
                     <h4><strong>Giới Tính:</strong> <?= htmlspecialchars($sv['GioiTinh']) ?></h4>
                     <h4><strong>Ngày Sinh:</strong> <?= htmlspecialchars($sv['NgaySinh']) ?></h4>
                     <h4><strong>Ngành:</strong> <?= htmlspecialchars($sv['MaNganh']) ?></h4>
-                    <a href="list.php" class="btn btn-secondary mt-3">
+                    <a href="http://localhost:3000/index.php" class="btn btn-secondary mt-3">
                         <i class="fas fa-arrow-left"></i> Quay lại danh sách
                     </a>
                 </div>
